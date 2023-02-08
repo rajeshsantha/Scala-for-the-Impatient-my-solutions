@@ -102,10 +102,12 @@ object Chapter05 {
   /*
   7. Write a class Person with a primary constructor that accepts a string containing a first name, a space, and a last name, such as new Person("Fred Smith"). Supply read-only properties firstName and lastName. Should the primary constructor parameter be a var, a val, or a plain parameter? Why?
   */
+/*
   class Person(val fullName: String) {
     val (firstName, lastName) = fullName.split(" ") //read only values So VALs
 
   }
+*/
 
   /*
   8. Make a class Car with read-only properties for manufacturer, model name, and model year, and a read-write property for the license plate. Supply four constructors. All require the manufacturer and model name. Optionally, model year and license plate can also be specified in the constructor. If not, the model year is set to -1 and the license plate to the empty string. Which constructor are you choosing as the primary constructor? Why?
